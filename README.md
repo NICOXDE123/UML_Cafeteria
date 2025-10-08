@@ -13,41 +13,42 @@ Marret-Cafe
 | *Michael Flores*     | **Diseñador UML / QA**        | Creación de diagramas UML (clases y casos de uso), validación técnica y control de calidad. |
 | *Felipe Salazar*     | **Analista de Requisitos / Presentador** | Documentación funcional, trazabilidad y exposición del proyecto.                |
 
-### Repositorio
+## Estructura del Repositorio
 
-/Marret-Cafe
-├── README.md # Documento principal con la descripción del proyecto y cómo usarlo
-├── requirements.md # Requerimientos funcionales y no funcionales
-├── implementation_plan.md # Plan de implementación técnica, cronograma y tareas
-├── repo.url.txt # Link del repositorio en GitHub para facilitar el acceso
-├── diagrams/ # Carpeta con los diagramas UML
-│ ├── casodeuso.wsd # Diagrama de casos de uso (PlantUML)
-│ ├── casodeuso.png # Diagrama de casos de uso exportado
-│ ├── uml.wsd # Diagrama de clases (PlantUML)
-│ └── uml.png # Diagrama de clases exportado
-├── slides/ # Carpeta con la presentación en PDF
-│ └── Presentación Marret Cafe.pdf # Presentación final del proyecto
-├── documentación/ # Documentos adicionales
-│ ├── especificación_requerimientos.pdf # Documento detallado de requisitos
-│ ├── casos_de_uso.pdf # Especificación de los casos de uso
-│ ├── diagrama_clases.pdf # Especificación del diagrama de clases
-│ └── plan_implementación.pdf # Plan de implementación completo
-├── frontend/ # Carpeta para el desarrollo frontend
-│ ├── index.html # Página principal HTML
-│ ├── estilos/ # Estilos CSS
-│ │ ├── main.css # Estilos globales
-│ └── scripts/ # Scripts JavaScript
-│ └── app.js # Lógica de la aplicación (frontend)
-├── backend/ # Carpeta para el desarrollo backend (Node.js)
-│ ├── controllers/ # Controladores para las rutas de la API
-│ ├── models/ # Modelos de datos (productos, reservas, etc.)
-│ ├── routes/ # Rutas de la API
-│ └── config/ # Configuración del servidor y base de datos
-│ ├── database.js # Conexión con la base de datos
-│ └── server.js # Configuración del servidor Express
-├── base_datos/ # Carpeta con información de la base de datos
-│ ├── diagrama_entidad_relación.png # Diagrama ER de la base de datos
-│ └── script_sql_marret.sql # Script SQL para crear las tablas de la base de datos
+| **Carpeta/Archivo**                  | **Descripción**                                                         |
+|--------------------------------------|-------------------------------------------------------------------------|
+| **`README.md`**                      | Documento principal con la descripción del proyecto y cómo usarlo.      |
+| **`requirements.md`**                | Requerimientos funcionales y no funcionales.                            |
+| **`implementation_plan.md`**         | Plan de implementación técnica, cronograma y tareas.                    |
+| **`repo.url.txt`**                   | Link del repositorio en GitHub para facilitar el acceso.                |
+| **`diagrams/`**                      | Carpeta con los diagramas UML.                                          |
+| `diagrams/casodeuso.wsd`             | Diagrama de casos de uso (PlantUML).                                    |
+| `diagrams/casodeuso.png`             | Diagrama de casos de uso exportado.                                     |
+| `diagrams/uml.wsd`                   | Diagrama de clases (PlantUML).                                          |
+| `diagrams/uml.png`                   | Diagrama de clases exportado.                                           |
+| **`slides/`**                        | Carpeta con la presentación en PDF.                                     |
+| `slides/Presentación Marret Cafe.pdf`| Presentación final del proyecto.                                        |
+| **`documentación/`**                 | Documentos adicionales.                                                 |
+| `documentación/especificación_requerimientos.pdf` | Documento detallado de requisitos.                      |
+| `documentación/casos_de_uso.pdf`     | Especificación de los casos de uso.                                     |
+| `documentación/diagrama_clases.pdf`  | Especificación del diagrama de clases.                                  |
+| `documentación/plan_implementación.pdf` | Plan de implementación completo.                                    |
+| **`frontend/`**                      | Carpeta para el desarrollo frontend.                                   |
+| `frontend/index.html`                | Página principal HTML.                                                 |
+| `frontend/estilos/`                  | Estilos CSS.                                                            |
+| `frontend/estilos/main.css`          | Estilos globales.                                                       |
+| `frontend/scripts/`                  | Scripts JavaScript.                                                     |
+| `frontend/scripts/app.js`            | Lógica de la aplicación (frontend).                                    |
+| **`backend/`**                       | Carpeta para el desarrollo backend (Node.js).                          |
+| `backend/controllers/`               | Controladores para las rutas de la API.                                |
+| `backend/models/`                    | Modelos de datos (productos, reservas, etc.).                           |
+| `backend/routes/`                    | Rutas de la API.                                                       |
+| `backend/config/`                    | Configuración del servidor y base de datos.                             |
+| `backend/config/database.js`         | Conexión con la base de datos.                                          |
+| `backend/config/server.js`           | Configuración del servidor Express.                                     |
+| **`base_datos/`**                    | Carpeta con información de la base de datos.                           |
+| `base_datos/diagrama_entidad_relación.png` | Diagrama ER de la base de datos.                                    |
+| `base_datos/script_sql_marret.sql`   | Script SQL para crear las tablas de la base de datos.                  |
 
 **Descripción del Proyecto**
 
