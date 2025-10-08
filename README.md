@@ -14,49 +14,42 @@
 | *Michael Flores* | **Diseñador UML / QA** | Creación de diagramas UML (clases y casos de uso), validación técnica y control de calidad. |
 | *Felipe Salazar* | **Analista de Requisitos / Presentador** | Documentación funcional, trazabilidad y exposición del proyecto. |
 
----  
-     /README.md
-/requirements.md
-/implementation_plan.md
-/repo.url.txt
-/diagrams/
-     casodeuso.wsd
-     casodeuso.png
-   uml.wsd
-   uml.png
-/slides/
-    Presentación Marret Cafe.pdf
+Repositorio:
 
+/Marret-Cafe
+├── README.md
+├── requirements.md
+├── implementation_plan.md
+├── repo.url.txt
+├── diagrams/
+│   ├── casodeuso.wsd
+│   ├── casodeuso.png
+│   ├── uml.wsd
+│   └── uml.png
+├── slides/
+│   └── Presentación Marret Cafe.pdf
+├── documentación/
+│   ├── especificación_requerimientos.pdf
+│   ├── casos_de_uso.pdf
+│   ├── diagrama_clases.pdf
+│   └── plan_implementación.pdf
+├── frontend/
+│   ├── index.html
+│   ├── estilos/
+│   │   ├── main.css
+│   └── scripts/
+│       └── app.js
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── config/
+│       ├── database.js
+│       └── server.js
+├── base_datos/
+│   ├── diagrama_entidad_relación.png
+│   └── script_sql_marret.sql
 
-        documentación/
-         especificación_requerimientos.pdf
-     casos_de_uso.pdf
-     diagrama_clases.pdf
-     plan_implementación.pdf
-
- frontend/
-      index.html 
- estilos/
-     main.css
-     scripts/
-        app.js
-     assets/
-     imágenes/
-     íconos/
-
-backend/
- controllers/
- models/
- croutes/
- config/
-    database.js
-    server.js
-
-  base_datos/
-    diagrama_entidad_relación.png
-    script_sql_marret.sql
-
- README.md
 
 **Descripción del Proyecto**
 
@@ -81,6 +74,20 @@ Contiene los *diagramas UML* del sistema:
 ### Carpeta /slides/
 Incluye la *presentación oficial en PDF* (exportada desde Canva o PowerPoint).
 
+### Carpeta /frontend
+
+Contiene los archivos básicos del frontend, como index.html, archivos de estilo (main.css) y scripts (app.js).
+
+La carpeta /assets contiene imágenes e íconos para el sitio web.
+
+### Carpeta /backend
+
+La carpeta /controllers incluye los controladores de la API REST.
+
+La carpeta /models contiene los modelos de datos que interactúan con la base de datos.
+
+/config/database.js y /config/server.js configuran la base de datos y el servidor.
+
 ---
 
 **Objetivos del Proyecto**
@@ -94,9 +101,9 @@ Incluye la *presentación oficial en PDF* (exportada desde Canva o PowerPoint).
 
 **Cronograma de Trabajo (Resumen)**
 
-| Semana | Entregable | Responsable |
-|---------|-------------|-------------|
-| 1 | Creación de diagramas UML | Michael |
-| 2 | Documento de requerimientos (requirements.md) | Felipe |
-| 3 | Plan de implementación (implementation_plan.md) | Nicolás |
-| 4 | Integración final y presentación | Equipo completo |
+| Semana | Actividad                                                  | Responsable    |
+| ------ | ---------------------------------------------------------- | -------------- |
+| 1      | Diseño de diagramas UML y estructura básica                | Michael        |
+| 2      | Redacción de requisitos y análisis de funcionalidades      | Felipe         |
+| 3      | Plan de implementación y tareas técnicas                   | Nicolás        |
+| 4      | Implementación del prototipo y preparación de presentación | Todo el equipo |
