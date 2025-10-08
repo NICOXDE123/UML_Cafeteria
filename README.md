@@ -1,61 +1,61 @@
-/Marret-Cafe
+Marret-Cafe
 
 **Evaluación N°3 — Diseño y Desarrollo de Software**  
 **Profesor:** Cristian Iglesias Vera  
 **Sección:** 01 — TU en Informática Diurno  
 
 --- 
+**Integrantes y Roles del Equipo**
 
-  **Integrantes y Roles del Equipo**
+| **Integrante**       | **Rol Principal**            | **Responsabilidades**                                                              |
+|----------------------|------------------------------|-----------------------------------------------------------------------------------|
+| *Nicolás Huenchual*  | **Líder / Coordinador**      | Organización del equipo, control de tiempos, revisión general y entrega final.     |
+| *Michael Flores*     | **Diseñador UML / QA**        | Creación de diagramas UML (clases y casos de uso), validación técnica y control de calidad. |
+| *Felipe Salazar*     | **Analista de Requisitos / Presentador** | Documentación funcional, trazabilidad y exposición del proyecto.                |
 
-| **Integrante** | **Rol Principal** | **Responsabilidades** |
-|----------------|------------------|------------------------|
-| *Nicolás Huenchual* | **Líder / Coordinador** | Organización del equipo, control de tiempos, revisión general y entrega final. |
-| *Michael Flores* | **Diseñador UML / QA** | Creación de diagramas UML (clases y casos de uso), validación técnica y control de calidad. |
-| *Felipe Salazar* | **Analista de Requisitos / Presentador** | Documentación funcional, trazabilidad y exposición del proyecto. |
+### Repositorio
 
-Repositorio:
+Marret-Cafe
+├── README.md                        # Documento principal con la descripción del proyecto y cómo usarlo
+├── requirements.md                  # Requerimientos funcionales y no funcionales
+├── implementation_plan.md           # Plan de implementación técnica, cronograma y tareas
+├── repo.url.txt                     # Link del repositorio en GitHub para facilitar el acceso
+├── diagrams/                        # Carpeta con los diagramas UML
+│   ├── casodeuso.wsd                # Diagrama de casos de uso (PlantUML)
+│   ├── casodeuso.png                # Diagrama de casos de uso exportado
+│   ├── uml.wsd                      # Diagrama de clases (PlantUML)
+│   └── uml.png                      # Diagrama de clases exportado
+├── slides/                          # Carpeta con la presentación en PDF
+│   └── Presentación Marret Cafe.pdf # Presentación final del proyecto
+├── documentación/                   # Documentos adicionales
+│   ├── especificación_requerimientos.pdf  # Documento detallado de requisitos
+│   ├── casos_de_uso.pdf             # Especificación de los casos de uso
+│   ├── diagrama_clases.pdf         # Especificación del diagrama de clases
+│   └── plan_implementación.pdf     # Plan de implementación completo
+├── frontend/                        # Carpeta para el desarrollo frontend
+│   ├── index.html                   # Página principal HTML
+│   ├── estilos/                     # Estilos CSS
+│   │   ├── main.css                 # Estilos globales
+│   └── scripts/                     # Scripts JavaScript
+│       └── app.js                   # Lógica de la aplicación (frontend)
+├── backend/                         # Carpeta para el desarrollo backend (Node.js)
+│   ├── controllers/                 # Controladores para las rutas de la API
+│   ├── models/                      # Modelos de datos (productos, reservas, etc.)
+│   ├── routes/                      # Rutas de la API
+│   └── config/                      # Configuración del servidor y base de datos
+│       ├── database.js              # Conexión con la base de datos
+│       └── server.js                # Configuración del servidor Express
+├── base_datos/                      # Carpeta con información de la base de datos
+│   ├── diagrama_entidad_relación.png # Diagrama ER de la base de datos
+│   └── script_sql_marret.sql        # Script SQL para crear la base de datos
 
-/Marret-Cafe
-├── README.md
-├── requirements.md
-├── implementation_plan.md
-├── repo.url.txt
-├── diagrams/
-│   ├── casodeuso.wsd
-│   ├── casodeuso.png
-│   ├── uml.wsd
-│   └── uml.png
-├── slides/
-│   └── Presentación Marret Cafe.pdf
-├── documentación/
-│   ├── especificación_requerimientos.pdf
-│   ├── casos_de_uso.pdf
-│   ├── diagrama_clases.pdf
-│   └── plan_implementación.pdf
-├── frontend/
-│   ├── index.html
-│   ├── estilos/
-│   │   ├── main.css
-│   └── scripts/
-│       └── app.js
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── config/
-│       ├── database.js
-│       └── server.js
-├── base_datos/
-│   ├── diagrama_entidad_relación.png
-│   └── script_sql_marret.sql
 
 
 **Descripción del Proyecto**
 
-El proyecto **Marret Café** tiene como propósito **digitalizar el proceso de atención y reservas** de una cafetería artesanal, brindando una **plataforma web moderna** que permita a los clientes **realizar reservas en línea** y al personal **gestionar productos, reservas y usuarios** desde un panel administrativo.
+-El proyecto **Marret Café** tiene como propósito **digitalizar el proceso de atención y reservas** de una cafetería artesanal, brindando una **plataforma web moderna** que permita a los clientes **realizar reservas en línea** y al personal **gestionar productos, reservas y usuarios** desde un panel administrativo.
 
-Este trabajo corresponde a la **fase de diseño técnico**, donde se presentan los **diagramas UML**, la **documentación de requerimientos** y el **plan de implementación**, como base para el desarrollo futuro del sistema.
+-Este trabajo corresponde a la **fase de diseño técnico**, donde se presentan los **diagramas UML**, la **documentación de requerimientos** y el **plan de implementación**, como base para el desarrollo futuro del sistema.
 
 
 **Contenidos Principales**
@@ -72,21 +72,22 @@ Contiene los *diagramas UML* del sistema:
 - *uml.wsd / .png:* Diagrama de clases con relaciones y atributos principales.
 
 ### Carpeta /slides/
-Incluye la *presentación oficial en PDF* (exportada desde Canva o PowerPoint).
+
+-Incluye la *presentación oficial en PDF* (exportada desde Canva o PowerPoint).
 
 ### Carpeta /frontend
 
-Contiene los archivos básicos del frontend, como index.html, archivos de estilo (main.css) y scripts (app.js).
+-Contiene los archivos básicos del frontend, como index.html, archivos de estilo (main.css) y scripts (app.js).
 
-La carpeta /assets contiene imágenes e íconos para el sitio web.
+-La carpeta /assets contiene imágenes e íconos para el sitio web.
 
 ### Carpeta /backend
 
-La carpeta /controllers incluye los controladores de la API REST.
+-La carpeta /controllers incluye los controladores de la API REST.
 
-La carpeta /models contiene los modelos de datos que interactúan con la base de datos.
+-La carpeta /models contiene los modelos de datos que interactúan con la base de datos.
 
-/config/database.js y /config/server.js configuran la base de datos y el servidor.
+-/config/database.js y /config/server.js configuran la base de datos y el servidor.
 
 ---
 
